@@ -1,5 +1,5 @@
 # gbk_revcomp
-Create the reverse complement of a GenBank record
+Create the reverse complement of a single record GenBank file
 
 requires Biopython 
 
