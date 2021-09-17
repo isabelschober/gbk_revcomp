@@ -1,6 +1,8 @@
 # gbk_revcomp
 Create the reverse complement of a GenBank record
 
+requires Biopython 
+
 
 ```bash
 Usage: gbk_rev.py [-h] -i INPUTFILE
