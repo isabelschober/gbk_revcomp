@@ -25,7 +25,7 @@ optional arguments:
 
 def main(argv):
 	
-	parser=argparse.ArgumentParser()
+	parser=argparse.ArgumentParser(description="by Isabel\n\nGet the reverse complement of a GenBank record.\nThe input files need to be single GenBank record files.", formatter_class=argparse.RawDescriptionHelpFormatter)
 	parser.add_argument('-i', '--inputfile', required=True, help="a single record GenBank file")
 	args = parser.parse_args()
 	
